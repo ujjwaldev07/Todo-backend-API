@@ -1,0 +1,18 @@
+from User routes: 
+POST ->   /auth/api/signup
+POST ->   /auth/api/login
+GET ->    /auth/api/get/users
+PUT  ->   /auth/api/:id
+DELETE -> /auth/api/:id
+
+FOR TODO ROUTES:
+POST ->   /auth/api/todos
+GET ->    /auth/api/get/todos
+GET ->    /auth/api/todos/:status
+GET ->    /auth/api/todos/search
+GET ->    /auth/api/todos
+PUT ->    /auth/api/todos/:id
+DELETE -> /auth/api/todos/:id
+
+For stats routes:
+GET -> /auth/api/stats
