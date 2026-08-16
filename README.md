@@ -1,18 +1,10 @@
 Todo Backend API:
-A production-style RESTful Todo API** built with Node.js, Express.js, MongoDB, and JWT authentication.Simple CRUD. Secure authentication. Powerful filtering. Clean API architecture.
+A production-style RESTful Todo API built with Node.js, Express.js, MongoDB, and JWT authentication.Simple CRUD. Secure authentication. Powerful filtering. Clean API architecture.
 
 Features:
 
- 🔐 JWT-based authentication
- 👤 User signup & login
- 📝 Todo CRUD operations
- 🛡️ Protected routes
- 🔎 Todo filtering & sorting
- 📊 Todo statistics
- 🔑 Password hashing
- 📦 MongoDB database
- ⚡ RESTful API architecture
- ✅ Consistent JSON responses
+<img width="324" height="327" alt="image" src="https://github.com/user-attachments/assets/4d018758-85aa-451f-b9c1-69377424a7e4" />
+
 
 Tech Stack:
 
@@ -98,13 +90,7 @@ Supports FILTERING and SORTING based on your API implementation.
 
 Example Response:
 
-json:
-{
-  "success": true,
-  "message": "Todos fetched successfully",
-  "count": 2,
-  "data": []
-}
+<img width="461" height="228" alt="image" src="https://github.com/user-attachments/assets/47925fc3-1010-437c-bfce-882b346f9219" />
 
 🔒 Security:
 
@@ -121,4 +107,4 @@ The goal of this project is to build a clean, secure, and scalable backend API w
 
 Ujjwal Singh
 
-Built with Node.js, Express.js, MONGODB 
+Built with Node.js, Express.js, MongoDB, JWT. 
