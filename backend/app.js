@@ -15,8 +15,8 @@ const statsRoutes = require('./routes/statsRoutes');
 
 // Middlewares
 app.use(bodyParser.json());
-app.use('/auth/api', userRoutes);
-app.use('/auth/api', jwtAuthMiddleware, todoRoutes);
-app.use('/auth/api', jwtAuthMiddleware, statsRoutes);
+app.use('/api/auth', userRoutes);
+app.use('/api/auth', jwtAuthMiddleware, todoRoutes);
+app.use('/api/auth', jwtAuthMiddleware, statsRoutes);
 
 module.exports = app;
